@@ -7,5 +7,8 @@ public class Pilot extends CabinCrewMember {
     }
 
 
+    public String getLicenseNumber() {
+        return this.licenseNumber;
+    }
 
 }
