@@ -61,6 +61,18 @@ public class Flight {
     public int getPassenger() {
        return this.passengers.size();
     }
+
+
+    public int getPassengers() {
+       return this.passengers.size();
+    }
+
+
+    public void addPassenger(Passenger passenger) {
+       if(getPassengers() < plane.getCapacity()){
+           this.passengers.add(passenger);
+       }
+    }
 }
 
 
