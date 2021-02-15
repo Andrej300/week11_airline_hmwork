@@ -43,7 +43,23 @@ public class Flight {
     public Pilot getPilot() {
        return this.pilot;
     }
-}
+
+    public int getNumberOfCabinCrewMembers() {
+        return this.cabinCrewMembers.size();
+
+
+
+   }
+
+   public void addCabinCrewMember(CabinCrewMember cabinCrewMember) {
+        this.cabinCrewMembers.add(cabinCrewMember);
+
+
+    }
+
+
+    }
+
 
 
 
