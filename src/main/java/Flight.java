@@ -31,6 +31,10 @@ public class Flight {
     public String getDestination() {
        return this.destination;
     }
+
+    public String getDeparture() {
+       return this.departureAirport;
+    }
 }
 
 
