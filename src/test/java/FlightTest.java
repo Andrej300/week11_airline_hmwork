@@ -46,6 +46,11 @@ public class FlightTest {
         assertEquals("Amsterdam",flight.getDeparture());
     }
 
+    @Test
+    public void hasDepartureTime(){
+        assertEquals("20:15", flight.getDepartureTime());
+    }
+
 
         };
 
