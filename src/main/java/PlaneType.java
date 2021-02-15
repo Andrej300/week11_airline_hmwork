@@ -13,5 +13,9 @@ public enum PlaneType {
     }
 
 
+    public int getPlaneTypeCapacity() {
+        return this.capacity;
+    }
+
 
 }
