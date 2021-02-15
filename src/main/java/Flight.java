@@ -73,6 +73,10 @@ public class Flight {
            this.passengers.add(passenger);
        }
     }
+
+    public int getNumberOfSeats() {
+       return this.plane.getCapacity() - getPassengers();
+    }
 }
 
 

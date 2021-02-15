@@ -76,6 +76,16 @@ public class FlightTest {
         assertEquals(2, flight.getPassengers());
     }
 
+    @Test
+    public void availableSeats(){
+        plane = new Plane(PlaneType.BOEING717);
+        flight = new Flight(pilot, cabinCrewMembers,passengers, plane,"15:10","Helsinki","Edinburgh","WA129987");
+        flight.addPassenger(passenger1);
+        flight.addPassenger(passenger2);
+        assertEquals(148, flight.getNumberOfSeats());
+
+    }
+
 
         };
 
