@@ -39,6 +39,10 @@ public class Flight {
     public String getDepartureTime() {
        return this.departureTime;
     }
+
+    public Pilot getPilot() {
+       return this.pilot;
+    }
 }
 
 

@@ -30,6 +30,7 @@ public class FlightTest {
         plane = new Plane(PlaneType.AIRBUSA380);
         flight = new Flight(pilot,cabinCrewMembers, passengers, plane,"20:15","Amsterdam","Glasgow","TS124587");
 
+
     }
 
     @Test
@@ -49,6 +50,11 @@ public class FlightTest {
     @Test
     public void hasDepartureTime(){
         assertEquals("20:15", flight.getDepartureTime());
+    }
+
+    @Test
+    public void flightHasPilot(){
+        assertEquals(pilot, flight.getPilot());
     }
 
 
