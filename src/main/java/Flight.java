@@ -58,7 +58,10 @@ public class Flight {
     }
 
 
+    public int getPassenger() {
+       return this.passengers.size();
     }
+}
 
 
 
